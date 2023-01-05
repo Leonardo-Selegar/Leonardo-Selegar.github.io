@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2D343F;
+  border-radius: 10px;
+}
+
+.certificados-pag {
+  height: 100vh;
+  width: 100vw;
+  background-color: #1B1F24;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.certificados {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-certificados {
+  width: 350px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: #2D343F;
+  align-items: center;
+  margin: 2vw;
+  color: #FAFCED;
+}
+
+.img-card-certificados {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+
+.certificados-titulo {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  text-decoration: underline;
+  text-decoration-color: #0D52B8;
+  text-underline-position: under;
+}
+
+.btn-card {
+  background-color: #0D52B8;
+  color: white;
+  border: none;
+  width: 200px;
+  height: 25px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.btn-card:hover {
+  background-color: white;
+  color: #0D52B8;
+}
