@@ -1,7 +1,6 @@
 import React from "react";
 import Astro from '../imgs/astro.png'
 import '../styles/principal.css';
-import PDF from '../documentos/Curriculo.pdf'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -21,7 +20,6 @@ function Principal() {
             <Nav.Link href="#pag2">HABILIDADES</Nav.Link>
             <Nav.Link href="#pag3">PROJETOS</Nav.Link>
             <Nav.Link href="#pag4">CERTIFICADOS</Nav.Link>
-            <Nav.Link href="#pag5">CONTATO</Nav.Link>
           </Nav>
         </Container>
         </Navbar>
@@ -36,9 +34,6 @@ function Principal() {
             </a>
             <a href="https://github.com/Leonardo-Selegar" target="_blank" rel="noreferrer noopener">
               <button className="button">Github</button>
-            </a>
-            <a href={PDF} target="_blank" rel="noreferrer noopener">
-              <button className="button">Curriculo</button>
             </a>
           </div>
         </div>
