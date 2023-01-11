@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/port/static/css/main.c34c8332.css",
-    "main.js": "/port/static/js/main.af958179.js",
+    "main.css": "/port/static/css/main.4e903868.css",
+    "main.js": "/port/static/js/main.f96e34d7.js",
     "static/media/PixelArt.png": "/port/static/media/PixelArt.cc1f1f686e92f37de566.png",
     "static/media/recipes.png": "/port/static/media/recipes.ef7630572116bf028975.png",
     "static/media/SistemaSolar.png": "/port/static/media/SistemaSolar.90ac4c415b7e6c571fd3.png",
@@ -30,11 +30,11 @@
     "static/media/CSS.png": "/port/static/media/CSS.28a619cc2fb1dedf866e.png",
     "static/media/Kanban.png": "/port/static/media/Kanban.7e51fef830c6678d5ad4.png",
     "index.html": "/port/index.html",
-    "main.c34c8332.css.map": "/port/static/css/main.c34c8332.css.map",
-    "main.af958179.js.map": "/port/static/js/main.af958179.js.map"
+    "main.4e903868.css.map": "/port/static/css/main.4e903868.css.map",
+    "main.f96e34d7.js.map": "/port/static/js/main.f96e34d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.c34c8332.css",
-    "static/js/main.af958179.js"
+    "static/css/main.4e903868.css",
+    "static/js/main.f96e34d7.js"
   ]
 }
