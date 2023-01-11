@@ -20,6 +20,7 @@ function Principal() {
             <Nav.Link href="#pag2">HABILIDADES</Nav.Link>
             <Nav.Link href="#pag3">PROJETOS</Nav.Link>
             <Nav.Link href="#pag4">CERTIFICADOS</Nav.Link>
+            <Nav.Link href="#pag5">CONTATO</Nav.Link>
           </Nav>
         </Container>
         </Navbar>
