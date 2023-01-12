@@ -13,7 +13,9 @@ import { useState, useEffect, useRef } from 'react';
 function Projetos() {
 
   const arrayImgs = [ Recipes, Wallet, SistemaSolar, Warts, Pixel];
-  const arrayNomesProjetos = ['App de Receitas', 'Carteira Digital', 'Sistema Solar', 'TrybeWarts', 'Pixel Art']
+  const arrayNomesProjetos = ['App de Receitas', 'Carteira Digital', 'Sistema Solar', 'TrybeWarts', 'Pixel Art'];
+  const arrayLinksProjetos = ['', 'https://leonardo-selegar.github.io/trybewallet/#/carteira', '', '', ''];
+  const arrayLinksGithub = ['https://github.com/Leonardo-Selegar/recipes-app', 'https://github.com/Leonardo-Selegar/trybewallet', '', '', '']
   
   const [width, setWidth] = useState(0);
   const carrouselA = useRef();
@@ -60,8 +62,12 @@ function Projetos() {
                       <img src={img} alt={index} />
                       <h1 className="title-card-projects">{arrayNomesProjetos[index]}</h1>
                       <div className="buttons-project">
-                        <button className="button-project">DEMO</button>
-                        <button className="button-project">GITHUB</button>
+                        <a href={arrayLinksProjetos[index]} target="_blank" rel="noreferrer noopener">
+                          <button className="button-project">DEMO</button>
+                        </a>
+                        <a href={arrayLinksGithub[index]} target="_blank" rel="noreferrer noopener">
+                          <button className="button-project">GITHUB</button>
+                        </a>
                       </div>
                     </div>
                   </motion.div>
