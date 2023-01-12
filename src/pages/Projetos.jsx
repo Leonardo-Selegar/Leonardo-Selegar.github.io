@@ -8,13 +8,13 @@ import SistemaSolar from '../imgs/SistemaSolar.png'
 import { motion }from 'framer-motion';
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect, useRef } from 'react';
-// 948 
+
 
 function Projetos() {
 
   const arrayImgs = [ Recipes, Wallet, SistemaSolar, Warts, Pixel];
   const arrayNomesProjetos = ['App de Receitas', 'Carteira Digital', 'Sistema Solar', 'TrybeWarts', 'Pixel Art'];
-  const arrayLinksProjetos = ['', 'https://leonardo-selegar.github.io/trybewallet/#/carteira', '', '', ''];
+  const arrayLinksProjetos = ['https://leonardo-selegar.github.io/recipes-app/#/', 'https://leonardo-selegar.github.io/trybewallet/#/carteira', '', '', ''];
   const arrayLinksGithub = ['https://github.com/Leonardo-Selegar/recipes-app', 'https://github.com/Leonardo-Selegar/trybewallet', '', '', '']
   
   const [width, setWidth] = useState(0);
