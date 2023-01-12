@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/port/static/css/main.4e903868.css",
-    "main.js": "/port/static/js/main.f96e34d7.js",
+    "main.js": "/port/static/js/main.4c5c1d78.js",
     "static/media/PixelArt.png": "/port/static/media/PixelArt.cc1f1f686e92f37de566.png",
     "static/media/recipes.png": "/port/static/media/recipes.ef7630572116bf028975.png",
     "static/media/SistemaSolar.png": "/port/static/media/SistemaSolar.90ac4c415b7e6c571fd3.png",
@@ -31,10 +31,10 @@
     "static/media/Kanban.png": "/port/static/media/Kanban.7e51fef830c6678d5ad4.png",
     "index.html": "/port/index.html",
     "main.4e903868.css.map": "/port/static/css/main.4e903868.css.map",
-    "main.f96e34d7.js.map": "/port/static/js/main.f96e34d7.js.map"
+    "main.4c5c1d78.js.map": "/port/static/js/main.4c5c1d78.js.map"
   },
   "entrypoints": [
     "static/css/main.4e903868.css",
-    "static/js/main.f96e34d7.js"
+    "static/js/main.4c5c1d78.js"
   ]
 }
