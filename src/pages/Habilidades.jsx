@@ -33,7 +33,7 @@ function Habilidades() {
   const carrousel = useRef();
   const [width, setWidth] = useState(0);
 
-  const {ref, inView } = useInView();
+  const [ref, inView ] = useInView();
 
   useEffect(() => {
     setWidth(carrousel.current?.scrollWidth - carrousel.current?.offsetWidth)
