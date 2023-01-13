@@ -21,7 +21,7 @@ function Projetos() {
 
   return (
     <div className="pag-3" id="pag3">
-      <h1 className="titulo-carrousel">Projetos</h1>
+      <h1 className="titulo-pag3">Projetos</h1>
           <div className="container-projects">
             {
               arrayImgs.map((img, index) => (
