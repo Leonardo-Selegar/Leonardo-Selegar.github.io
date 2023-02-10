@@ -22,11 +22,11 @@ function Projetos() {
   'https://github.com/Leonardo-Selegar/trybewallet', 'https://github.com/Leonardo-Selegar/solar-system',
   'https://github.com/Leonardo-Selegar/trybewarts', 'https://github.com/Leonardo-Selegar/pixels-art'];
 
-  const arrayDescription = ['Projeto em grupo desenvolvido no final do módulo de front-end na Trybe.',
-  'Projeto de uma carteira digital para adicionar despesas em diferentes moedas.',
-  'Primeiro projeto do módulo de front-end, uma lista de missões para os planetas do sistema solar.',
-  'Projeto em dupla do módulo de Fundamentos, onde foi desenvolvido um formulário.',
-  'Um dos primeiros projetos que desenvolvi, é possivel selecionar uma cor e pintar um grid de pixels.',
+  const arrayDescription = ['Projeto em grupo desenvolvido no final do módulo de front-end na Trybe, nele é possível: ver, buscar, filtrar e favoritar receitas de comidas e bebidas!.',
+  'Projeto de uma carteira de controle de gastos com conversor de moedas, nele é possível: adicionar e remover um gasto, visualizar uma tabela com seus gastos e o total de gastos convertidos',
+  'Primeiro projeto do módulo de front-end, onde foi consumida uma API de missões espaciais do sistema solar.',
+  'Projeto em dupla do módulo de Fundamentos, um formulário da Trybewarts Wizarding School onde os estudantes poderão enviar seus feedbacks.',
+  'Um dos primeiros projetos que desenvolvi, um editor de arte com pixels onde se pode escolher uma cor em uma paleta de cores e pintar o que quiser em um quadro branco.',
   ];
 
   const arrayTecs = ['React, CSS, bootstrap e Context Api', 'ReactJS CSS e Redux', 'ReactJS e CSS', 'HTML, CSS E JavaScript', 'HTML, CSS E JavaScript']
@@ -55,7 +55,6 @@ function Projetos() {
             }
         </Carousel>
       </div>
-    
   )
 }
 
