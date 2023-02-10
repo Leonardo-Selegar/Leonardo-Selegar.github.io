@@ -11,12 +11,12 @@
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .titulo-pag3 {
   text-align: center;
-  margin-bottom: 5vh;
+  margin: 10vh 0vh 5vh;
   color: white;
   text-decoration: underline;
   text-decoration-color: #0D52B8;
@@ -24,54 +24,26 @@
 }
 
 .container-projects {
-  height: 70vh;
-  width: 70vw;
-  margin-left: 15%;
-  display: flex;
-  flex-wrap: wrap;
+  height: 50vh;
+  width: 30vw;
   justify-content: center;
 }
 
-.item-card {
-  height: 250px;
-  width: 350px;
-  padding: 14px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  margin: 10px;
-  border-radius: 12px;
-  background-color: #2D343F;
+.description-card {
+  font-size: small;
+  margin: 10px 0px 20px;
   color: white;
 }
 
-.item-card img {
-  height: 22vh;
-  border-radius: 12px;
-  pointer-events: none;
-}
-
-.title-card-projects {
-  text-align: center;
-}
-
-.buttons-project {
-  display: flex;
-  justify-content: center;
-}
-
-.button-project {
-  border: none;
-  height: 30px;
-  width: 100px;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  background-color: #0D52B8;
-  color: white;
-  border-radius: 12px;
+.button-previl {
+  margin-right: 1vh;
 }
 
 .button-project:hover {
   background-color: white;
   color: #0D52B8;
+}
+
+.card-project {
+  margin-left: 22.3vw;
 }

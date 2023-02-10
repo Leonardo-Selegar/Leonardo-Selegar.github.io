@@ -38,6 +38,7 @@ function Certificados() {
                 <a href="https://www.credential.net/fe2996b3-90cd-4f7a-b743-c6214703283b" target="_blank" rel="noreferrer noopener">
                   <button className="btn-card">VERIFICAR</button>
                 </a>
+                <h1 className="certificados-description">Certificado do módulo de Fundamentos do Desenvolvimento Web da Trybe.</h1>
               </motion.div>
               <motion.div className="card-certificados" 
                 initial={{ x: +1500}}
@@ -48,6 +49,7 @@ function Certificados() {
                 <a href="https://www.credential.net/9d151527-9369-46d0-8c9d-38da44a7cee8" target="_blank" rel="noreferrer noopener">
                   <button className="btn-card">VERIFICAR</button>
                 </a>
+                <h1 className="certificados-description">Certificado do módulo de Front-End da Trybe.</h1>
               </motion.div>
             </div>
           )

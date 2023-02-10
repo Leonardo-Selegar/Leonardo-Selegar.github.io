@@ -8,7 +8,7 @@ import { motion }from 'framer-motion';
 
 function Principal() {
   return (
-    <div className="img-bg-principal" id="pag1">
+    <div className="img-bg-principal" id="pag0">
       <Navbar bg="rgb(247, 65, 78)" variant="dark" fixed="bottom" className="navbar-custom d-flex justify-content-center">
         <Container>
           <Nav
@@ -16,7 +16,8 @@ function Principal() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#pag1">INICIO</Nav.Link>
+            <Nav.Link href="#pag0">INICIO</Nav.Link>
+            <Nav.Link href="#pag1">SOBRE MIM</Nav.Link>
             <Nav.Link href="#pag2">HABILIDADES</Nav.Link>
             <Nav.Link href="#pag3">PROJETOS</Nav.Link>
             <Nav.Link href="#pag4">CERTIFICADOS</Nav.Link>
