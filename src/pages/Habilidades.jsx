@@ -17,17 +17,18 @@ import Context from '../imgs/Context.png';
 import Docker from '../imgs/Docker.png';
 import MySQL from '../imgs/MySQL.png';
 import FramerMotion from '../imgs/framer-motion.png';
-import Responsive from '../imgs/responsive.png'
-import Node from '../imgs/Node.png'
+import Responsive from '../imgs/responsive.png';
+import Node from '../imgs/Node.png';
+import Vue from '../imgs/Vue.png';
 import { motion }from 'framer-motion';
 import { useState, useEffect, useRef } from 'react';
 import { useInView } from "react-intersection-observer";
 
 function Habilidades() {
-  const arrayTitulos = ['JavaScript', 'React', 'Framer Motion', 'CSS', 'Git/Github', 'Bootstrap',
+  const arrayTitulos = ['JavaScript', 'React', 'Vue.js', 'Framer Motion', 'CSS', 'Git/Github', 'Bootstrap',
     'Responsive design', 'Linux', 'Shell e Bash', 'HTML','Jest', 'RTL', 'Redux', 'Context Api', 'Scrum', 'Kanban', 'Docker', 'MySQL', 'Node.js'];
 
-  const imgsArray = [JS3, ReactImg, FramerMotion, CSS, Github, Bootstrap,
+  const imgsArray = [JS3, ReactImg, Vue, FramerMotion, CSS, Github, Bootstrap,
     Responsive, Linux, Bash, HTML, Jest, RTL, Redux, Context, Scrum, Kanban, Docker, MySQL, Node];
 
   const carrousel = useRef();
