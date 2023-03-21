@@ -1,30 +1,20 @@
 import React from "react";
 import Astro from '../imgs/astro.png'
 import '../styles/principal.css';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 import { motion }from 'framer-motion';
 
 function Principal() {
   return (
     <div className="img-bg-principal" id="pag0">
-      <Navbar bg="rgb(247, 65, 78)" variant="dark" fixed="bottom" className="navbar-custom d-flex justify-content-center">
-        <Container>
-          <Nav
-            className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: '100px' }}
-            navbarScroll
-          >
-            <Nav.Link href="#pag0">INICIO</Nav.Link>
-            <Nav.Link href="#pag1">SOBRE MIM</Nav.Link>
-            <Nav.Link href="#pag2">HABILIDADES</Nav.Link>
-            <Nav.Link href="#pag3">PROJETOS</Nav.Link>
-            <Nav.Link href="#pag4">CERTIFICADOS</Nav.Link>
-            <Nav.Link href="#pag5">CONTATO</Nav.Link>
-          </Nav>
-        </Container>
-        </Navbar>
+      <div className="navbar-custom">
+        <a href="#pag0" className="link-nav">INICIO</a>
+        <a href="#pag1" className="link-nav">SOBRE MIM</a>
+        <a href="#pag2" className="link-nav">HABILIDADES</a>
+        <a href="#pag3" className="link-nav">PROJETOS</a>
+        <a href="#pag4" className="link-nav">CERTIFICADOS</a>
+        <a href="#pag5" className="link-nav">CONTATO</a>
+      </div>
+      
       <div className="container-conteudo-principal">
         <div className="conteudo-principal">
           <h1 className="apresentacao">Olá! Meu nome é</h1>
