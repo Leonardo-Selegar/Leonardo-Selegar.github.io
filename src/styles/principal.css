@@ -20,17 +20,16 @@
 }
 
 .conteudo-principal {
-  align-items: center;
+  display: flex;
+  flex-direction: column;
   align-content: center;
-  height: 100vh;
+  align-self: center;
   width: 100vw;
   flex-wrap: wrap;
-  margin-left: 4vw;
   overflow-y: hidden;
 }
 
 .apresentacao {
-  margin-top: 37vh;
   font-size: x-large;
   color: #FAFCED;
 }
@@ -47,7 +46,7 @@
 }
 
 .buttons {
-  margin-top: 1vh;
+  margin-top: 8px;
   display: flex;
 }
 
@@ -80,7 +79,7 @@
 .navbar-custom {
   width: 33vw;
   border-radius: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   background-color: #0D52B8;
   color: white;
   margin-left: 33.5vw;
@@ -92,7 +91,7 @@
   position: fixed;
   bottom: 0;
   z-index: 1;
-  height: 6vh;
+  height: 50px;
   opacity: 0.9;
 }
 
@@ -116,27 +115,56 @@
   margin-right: 3rem;
 }
 
-@media screen and (max-width: 1074px) and (min-width: 812px){
+@media screen and (max-width: 1600px) and (min-width: 1075px){
+  .nome {
+    font-size: 75px;
+    color: #FAFCED;
+  }
   .astro-img {
     height: 300px;
   }
   .navbar-custom {
     width: 50vw;
-    height: 5vh;
+    height: 50px;
+    font-size: 1.4vw;
+    margin-left: 25vw;
+  }
+}
+
+@media screen and (max-width: 1074px) and (min-width: 812px){
+  .nome {
+    font-size: 68px;
+    color: #FAFCED;
+  }
+  .astro-img {
+    height: 200px;
+  }
+  .navbar-custom {
+    width: 50vw;
+    height: 50px;
     font-size: 1.4vw;
     margin-left: 25vw;
   }
 }
 
 @media screen and (max-width: 811px) and (min-width: 532px){
+  .nome {
+    font-size: 68px;
+    color: #FAFCED;
+  }
   .astro-container {
     display: none;
   }
   .navbar-custom {
     width: 80vw;
-    height: 5vh;
+    height: 50px;
     font-size: 1.8vw;
     margin-left: 10vw;
+  }
+  .conteudo-principal {
+    display: flex;
+    align-items: center;
+    margin: 0;
   }
 }
 
@@ -149,10 +177,15 @@
     display: none;
   }
   .navbar-custom {
-    width: 95vw;
-    height: 5vh;
+    width: 80vw;
+    height: 50px;
     font-size: 2.5vw;
-    margin-left: 1.5vw;
+    margin-left: 10vw;
+  }
+  .conteudo-principal {
+    display: flex;
+    align-items: center;
+    margin: 0;
   }
 }
 

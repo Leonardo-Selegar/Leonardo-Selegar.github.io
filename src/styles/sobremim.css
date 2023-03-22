@@ -1,5 +1,5 @@
 .sobre-mim-pag {
-  height: 100vh;
+  height: 1080px;
   width: 100vw;
   background-color: #22282F;
   overflow-x: hidden;
@@ -11,7 +11,8 @@
 
 .title-sobre {
   text-align: center;
-  margin-bottom: 5vh;
+  margin-bottom: 100px;
+  margin-top: -100px;
   color: white;
   text-decoration: underline;
   text-decoration-color: #0D52B8;
@@ -36,8 +37,8 @@
   align-items: center;
   flex-wrap: wrap;
   margin-left: 25vw;
-  margin-bottom: 3vh;
-  height: 25vh;
+  margin-bottom: 100px;
+  height: 200px;
 }
 
 .text-sobre-mim {
@@ -56,11 +57,11 @@
 
 .trybe {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:nowrap;
   align-items: center;
-  margin-bottom: 3vh;
+  margin-bottom: 50px;
   margin-left: 25vw;
-  height: 25vh;
+  height: 200px;
 }
 
 .text-sobre-trybe {
@@ -71,4 +72,135 @@
 .certificados-description {
   font-size: small;
   text-align: center;
+}
+
+@media screen and (max-width: 1700px) and (min-width: 1401px){
+  .sobre-mim-pag {
+    height: 900px;
+  }
+  .text-sobre {
+    font-size: large;
+  }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1025px){
+  .sobre-mim-pag {
+    height: 800px;
+  }
+  .sobre {
+    margin-bottom: 30px;
+  }
+  .trybe {
+    margin-bottom: 0px;
+  }
+  .title-sobre {
+    margin-bottom: 50px;
+  }
+  .text-sobre {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px){
+  .sobre-mim-pag {
+    height: 800px;
+  }
+  .title-sobre {
+    margin-bottom: 50px;
+  }
+  .sobre {
+    margin-bottom: 90px;
+    margin-left: 20vw;
+  }
+  .trybe {
+    margin-right: 10vw;
+    margin-left: 20vw;
+  }
+  .text-sobre-trybe {
+    width: 50vw;
+  }
+  .text-sobre-mim {
+    width: 50vw;
+  }
+  .text-sobre {
+    font-size: medium;
+  }
+  .img-perfil {
+    width: 15vw;
+    height: 15vw;
+    margin-right: 1vw;
+  }
+  .img-trybe {
+    margin-left: 1vw;
+    width: 15vw;
+    height: 15vw;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px){
+  .sobre-mim-pag {
+    height: 800px;
+  }
+  .title-sobre{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .sobre {
+    margin-left: 5vw;
+    margin-bottom: 30px;
+    height: 300px;
+    height: 40vh;
+  }
+ .text-sobre {
+    font-size: medium;
+    width: 70vw;
+  }
+  .img-perfil {
+    width: 15vw;
+    height: 15vw;
+    margin-right: 1vw;
+  }
+  .trybe {
+    margin-left: 5vw;
+    margin-bottom: 2vh;
+    height: 300px;
+    width: 90vh;
+  }
+  .text-sobre-trybe{
+    width: 70vw;
+  }
+  .img-trybe {
+    width: 15vw;
+    height: 15vw;
+    margin-left: 1vw;
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px){
+  .sobre {
+    margin-left: 1vw;
+    margin-bottom: 2vh;
+    height: 40vh;
+  }
+  .trybe {
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+    height: 40vh;
+  }
+  .text-sobre {
+    font-size: medium;
+    width: 70vw;
+  }
+  .text-sobre-trybe{
+    width: 70vw;
+  }
+  .img-perfil {
+    width: 22vw;
+    height: 22vw;
+    margin-right: 1vw;
+  }
+  .img-trybe {
+    width: 22vw;
+    height: 22vw;
+  }
 }
