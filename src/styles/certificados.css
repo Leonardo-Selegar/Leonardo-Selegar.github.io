@@ -71,3 +71,26 @@
   background-color: white;
   color: #0D52B8;
 }
+
+.certificados-description {
+  font-size: small;
+  text-align: center;
+}
+
+@media screen and (max-width: 760px){
+  .card-certificados {
+    width: 200px;
+  }
+  .certificados-description {
+    font-size: x-small;
+    text-align: center;
+  }
+  .btn-card {
+    width: 120px;
+    height: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
