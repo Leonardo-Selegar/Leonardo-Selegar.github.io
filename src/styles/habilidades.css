@@ -72,3 +72,22 @@
   cursor: grab;
   overflow: hidden;
 }
+
+@media screen and (max-width: 750px){
+  .titulo-carrousel {
+    text-align: center;
+    margin-left: 0;
+  }
+  .img-bg {
+    width: 120px;
+    height: 120px;
+  }
+  .img-bg img{
+    width: 70px;
+    height: 70px;
+  }
+  .item-car {
+    width: 150px;
+    height: 200px;
+  }
+}
